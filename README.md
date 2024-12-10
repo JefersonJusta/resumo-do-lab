@@ -90,7 +90,6 @@
   </tbody>
 </table>
 
-
 🔑 <strong>Principal Vantagem</strong>: A computação em nuvem prioriza o modelo OpEx, permitindo previsibilidade de custos e eliminando a necessidade de grandes investimentos iniciais.
 
 ###
@@ -100,6 +99,37 @@
 1. Explore as ofertas gratuitas do Azure: Teste máquinas virtuais, armazenamento e outros serviços.
 2. Escolha o modelo ideal para o seu projeto: Avalie entre IaaS, PaaS ou SaaS.
 3. Implemente sua estratégia de nuvem: Escolha pública, privada ou híbrida conforme suas necessidades.
+
+###
+
+<h2 align="left">📦 Opções de disponibilidade para máquinas virtuais do Azure</h2>
+
+<p align="left">O Azure oferece várias opções para garantir alta disponibilidade de suas máquinas virtuais:</p>
+
+- **Conjuntos de Disponibilidade (Availability Sets)**: Distribuem VMs entre racks diferentes dentro de um datacenter. Garantem SLA de até 99,95%.
+- **Zonas de Disponibilidade (Availability Zones)**: Distribuem VMs entre datacenters diferentes na mesma região, garantindo SLA de até 99,99%.
+- **Conjuntos de Escala (Scale Sets)**: Permitem criar e gerenciar várias VMs automaticamente, com balanceamento de carga.
+- **Backup e Recuperação**: Restauram rapidamente VMs em caso de falhas.
+
+###
+
+<h2 align="left">📂 Criar uma conta de armazenamento no Azure</h2>
+
+<p align="left">Uma conta de armazenamento no Azure gerencia seus dados na nuvem de maneira organizada e segura:</p>
+
+- **Tipos de Armazenamento**:
+  - **Blob Storage**: Para dados não estruturados como arquivos e imagens.
+  - **File Storage**: Armazenamento compartilhado acessível via SMB.
+  - **Queue Storage**: Gerencia mensagens em fila para comunicação de aplicativos.
+  - **Table Storage**: Banco de dados NoSQL para dados estruturados.
+
+- **Níveis de Desempenho**:
+  - **Standard**: Econômico, ideal para dados acessados com menos frequência.
+  - **Premium**: Baixa latência, adequado para dados frequentemente acessados.
+
+- **Replicação de Dados**:
+  - **LRS (Locally-redundant storage)**: Dados replicados dentro de um único datacenter.
+  - **GRS (Geo-redundant storage)**: Dados replicados entre datacenters em diferentes regiões.
 
 ###
 
